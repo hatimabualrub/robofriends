@@ -27,7 +27,6 @@ class App extends React.Component {
 		return(
 			<div className='tc'>
 				<h1 className='f1'>RoboFriends</h1>
-				<h3 className='f1'>By Hatim</h3>
 				<SearchBox searchChange={this.onSearchChange}/>
 				<Scroll>
 					<CardList robots={filteredRobots}/>
